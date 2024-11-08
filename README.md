@@ -1,27 +1,61 @@
-# AngularGame
+# 🎮 Angular 小遊戲
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+![遊戲截圖](public/looklike.png)
 
-## Development server
+## 🚀 功能特色
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🏗️ 建造和破壞方塊
+- 🎯 第一人稱視角
+- 🎒 背包系統
+- 🌈 不同類型的方塊
+- 🖱️ 滑鼠和鍵盤控制
 
-## Code scaffolding
+## 🛠️ 開發伺服器
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+執行 `ng serve` 啟動開發伺服器。瀏覽器訪問 `http://localhost:4200/`。當源文件發生變化時，應用程序會自動重新加載。
 
-## Build
+## 🔧 安裝說明
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone專案
 
-## Running unit tests
+```bash
+git clone https://...
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. 安裝依賴
 
-## Running end-to-end tests
+```bash
+cd angular-game
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. 啟動開發伺服器
 
-## Further help
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🎮 操作說明
+
+- 🖱️ 點擊畫面開始遊戲
+- ⌨️ WASD / 方向鍵移動
+- 🖱️ 滑鼠轉動視角
+- 🖱️ 左鍵破壞方塊
+- 🖱️ 右鍵放置方塊
+- ⌨️ ESC 退出遊戲
+
+## 🏗️ 建置
+
+執行 `ng build` 建置專案。建置後的文件將存儲在 `dist/` 目錄中。
+
+## 🧪 單元測試
+
+執行 `ng test` 通過 [Karma](https://karma-runner.github.io) 運行單元測試。
+
+## 📚 更多幫助
+
+要獲取更多關於 Angular CLI 的幫助，請使用 `ng help` 或查看 [Angular CLI 概述和命令參考](https://angular.dev/tools/cli) 頁面。
+
+## 📝 授權
+
+本專案採用 MIT 授權 - 詳見 LICENSE 文件。
